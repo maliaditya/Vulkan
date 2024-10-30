@@ -1,0 +1,22 @@
+{
+  "pageTitle": "Vulkan Docs",
+  "pageHeader": "Vulkan Guide",
+  "utterances": {
+    "repo": "maliaditya/Vulkan",
+    "issueTerm": "pathname",
+    "issueNumber": null,
+    "theme": "github-dark"
+  },
+  "default_markdown":"00-Setup.md",
+  "markdownFiles": [
+    {
+      "fileName": "00-Setup.md",
+      "displayName": "00-Setup"
+    },
+    {
+      "fileName": "01-Empty Window.md",
+      "displayName": "01-Empty Window"
+    }
+    
+  ]
+}
