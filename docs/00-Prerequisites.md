@@ -16,9 +16,10 @@
 
 ## 4. Install Microsoft Visual Studio if not installed
 
-### Download Visual Studio Build Tools:
-- Go to the [Microsoft Visual Studio Build Tools Page](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
-- Download the installer for Visual Studio Build Tools, ensuring you select the workload for “Desktop development with C++.”
+### Download and Install Microsoft Visual Studio:
+- Go to the [Microsoft Visual Studio Download Page](https://visualstudio.microsoft.com/downloads/).
+- Download the installer for Visual Studio (Community, Professional, or Enterprise editions).
+- During installation, select the workload for “Desktop development with C++” to ensure all necessary build tools, including the Visual C++ compiler, are installed.
  
 ## 5. Download stb_image.h
 - **Visit the stb GitHub Repository**:
