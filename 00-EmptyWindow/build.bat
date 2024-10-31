@@ -1,4 +1,3 @@
-
 :: Path to Visual Studio vcvars64.bat
 set VC_VARS_BAT="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
@@ -22,7 +21,6 @@ set COMPILER_OPTIONS=/std:c++17 /c /EHsc
 
 :: Additional Libraries to Link
 set ADDITIONAL_LIBS=user32.lib gdi32.lib shell32.lib
-
 
 @echo off
 cls
