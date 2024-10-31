@@ -7,15 +7,23 @@
     "issueNumber": null,
     "theme": "github-dark"
   },
-  "default_markdown":"00-Setup.md",
+  "default_markdown":"00-Prerequisites.md",
   "markdownFiles": [
-    {
-      "fileName": "00-Setup.md",
-      "displayName": "00-Setup"
+     {
+      "fileName": "00-Prerequisites.md",
+      "displayName": "00-Prerequisites"
     },
     {
-      "fileName": "01-Empty Window.md",
-      "displayName": "01-Empty Window"
+      "fileName": "01-Setup.md",
+      "displayName": "01-Setup"
+    },
+    {
+      "fileName": "02-Empty Window.md",
+      "displayName": "02-Empty Window"
+    },
+     {
+      "fileName": "03-Build",
+      "displayName": "03-Build"
     }
     
   ]

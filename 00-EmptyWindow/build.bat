@@ -1,9 +1,12 @@
 
+:: Path to Visual Studio vcvars64.bat
+set VC_VARS_BAT="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+
 :: Path to Vendor Libraries
 set VENDOR_LIBS=lib
 
 :: GLFW Library to Link
-set GLFW_LIBS=%VENDOR_LIBS%\glfw\glfw3.lib
+set GLFW_LIBS=%VENDOR_LIBS%\GLFW\glfw3.lib
 
 :: Source Directory
 set SRC_DIR=.\src
@@ -20,10 +23,6 @@ set COMPILER_OPTIONS=/std:c++17 /c /EHsc
 :: Additional Libraries to Link
 set ADDITIONAL_LIBS=user32.lib gdi32.lib shell32.lib
 
-
-
-:: Path to Visual Studio vcvars64.bat
-set VC_VARS_BAT="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 @echo off
 cls
@@ -53,8 +52,6 @@ mkdir %OBJ_DIR%
 :: Compile the source files using configuration
 cl.exe %COMPILER_OPTIONS% ^
     /I %VENDOR_LIBS% ^
-    /I %GLFW_LIB%\include ^
-    /I %VENDOR_LIBS%\glm ^
     /I %VENDOR_LIBS%\GSL\include ^
     /I %SRC_DIR% ^
     %SRC_DIR%\*.cpp ^
