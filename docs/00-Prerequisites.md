@@ -1,5 +1,4 @@
 # Prerequisites 
-- [Watch the Step-by-Step Video Guide](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## 1. Download Vulkan SDK and Install
 - Download the Vulkan SDK from [LunarG](https://vulkan.lunarg.com/sdk/home) for your operating system. The SDK includes all the necessary libraries and tools to start using Vulkan in your project.
