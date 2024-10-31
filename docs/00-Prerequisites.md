@@ -15,7 +15,7 @@
    - Download the latest ZIP file from the repository and extract it.
 
 ## 4. Install Microsoft Visual Studio if not installed
-
+- **Visit the Official Microsoft Visual Studio Website**:
 - Go to the [Microsoft Visual Studio Download Page](https://visualstudio.microsoft.com/downloads/).
 - Download the installer for Visual Studio (Community, Professional, or Enterprise editions).
 - During installation, select the workload for “Desktop development with C++” to ensure all necessary build tools, including the Visual C++ compiler, are installed.
